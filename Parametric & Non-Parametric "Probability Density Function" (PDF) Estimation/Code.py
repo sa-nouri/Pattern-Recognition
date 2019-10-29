@@ -67,10 +67,10 @@ NUM_OF_SAMPLES= 750
 NUM_OF_DISTS= 4
 Q= -100000
 
-mu1, sigma1 = 1,0.1
-mu2, sigma2 = 1.5,math.sqrt(0.1)
-mu3, sigma3 = 2,0.2
-mu4, sigma4 = 2.6,math.sqrt(0.5)
+mu1, sigma1 = 1, 0.1
+mu2, sigma2 = 1.5, math.sqrt(0.1)
+mu3, sigma3 = 2, 0.2
+mu4, sigma4 = 2.6, math.sqrt(0.5)
 s1 = np.random.normal(mu1, sigma1, NUM_OF_SAMPLES);
 s2 = np.random.normal(mu2, sigma2, NUM_OF_SAMPLES);
 s3 = np.random.normal(mu3, sigma3, NUM_OF_SAMPLES);
@@ -91,7 +91,7 @@ new_Q= calc_Q()
 qlist=[];
 i=0
 
-while (i<30):#np.abs(new_Q-Q)>TRSH):
+while (i<40):
 	print (new_Q)
 	Q= new_Q
 	mdm_step()
