@@ -1,3 +1,8 @@
+# Pattern Recognition --- Assignemnt#3
+# Bayes Optimal Classifier
+# Salar Nouri
+#---------------------------------------------#
+
 import itertools
 import pandas as pd
 import numpy as np
@@ -8,7 +13,9 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import contextlib
 import time
+
 @contextlib.contextmanager
+
 def timer():
     start= time.time()
     yield
@@ -113,3 +120,4 @@ cnf_matrix = confusion_matrix(test_labels, decision_labels)
 plt.figure()
 plot_confusion_matrix(cnf_matrix, classes=class_names, title='Confusion matrix, without normalization')
 plt.show()
+
