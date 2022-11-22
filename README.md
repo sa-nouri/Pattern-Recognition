@@ -1,2 +1,10 @@
-# Pattern-Recognition-Course-Assignments
-The Pattern Recognition projects are contained my Computer Assignments about this course in Fall 2018. Also, some of my teaching experiences of this course in the subsequent semesters.
+## Pattern-Recognition
+
+Pattern recognition is a data analysis method that uses machine learning algorithms to automatically recognize patterns and regularities in data. This data can be anything from text and images to sounds or other definable qualities.
+
+### Selected Projects
+
+- Implementing Parametric and Non-parametric pdf Estimation Algorithms
+- Implementing Dimensionality Reduction Algorithms
+- Implementing Classifiers such as Bayes’ Optimal Classifier, SVM, and MLP/RBF Networks
+- Implementing various Clustering Algorithms such as Agglomerative Hierarchical, Sequential, and k-means
